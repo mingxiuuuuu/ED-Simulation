@@ -48,11 +48,31 @@ ED Simulation/
 - **Python 3.11** (Required for optimal compatibility)
 - ⚠️ **Important**: Use Python 3.11 to avoid dependency issues with newer versions (3.12+)
 
+```bash
+python --version #check that it is version 3.11.X
+```
+
+### Setup
 Clone the repo and install dependencies:
 
+**Option 1: Direct Installation**
 ```bash
 git clone https://github.com/mingxiuuuuu/ED-Simulation.git
 cd ED-Simulation
+pip install -r requirements.txt
+```
+
+**Option 2: Virtual Environment (Recommended)**
+```bash
+git clone https://github.com/mingxiuuuuu/ED-Simulation.git
+cd ED-Simulation
+python -m venv venv
+
+# Windows
+venv/Scripts/activate
+# macOS/Linux
+source venv/bin/activate
+
 pip install -r requirements.txt
 ```
 ---
