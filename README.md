@@ -46,8 +46,8 @@ ED Simulation/
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/ed-sim.git
-cd ed-sim
+git clone https://github.com/mingxiuuuuu/ED-Simulation.git
+cd ED-Simulation
 pip install -r requirements.txt
 ```
 ---
