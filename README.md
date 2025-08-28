@@ -43,6 +43,11 @@ ED Simulation/
 ---
 
 ## Installation
+
+### Requirements
+- **Python 3.11** (Required for optimal compatibility)
+- ⚠️ **Important**: Use Python 3.11 to avoid dependency issues with newer versions (3.12+)
+
 Clone the repo and install dependencies:
 
 ```bash
